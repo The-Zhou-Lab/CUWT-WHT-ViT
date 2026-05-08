@@ -17,11 +17,17 @@ This repository provides the source code, trained deep learning models, example 
 
 The project presents the China-UK Wheat Traits (CUWT) dataset and the Wheat Trait-guided Vision Transformer (WHT-ViT), a trait-guided deep learning framework for field-based wheat cultivar classification using dual-view smartphone images collected from China and the UK.
 
-The complete CUWT image dataset is deposited in Zenodo: **[Zenodo DOI / reviewer link to be added]**.
+The complete CUWT image dataset is deposited in Zenodo: 10.5281/zenodo.20056635
+        
+        
+        
+        .
 
 The main files are as follows:
 
-(1) CUWT dataset.zip - The China-UK Wheat Traits (CUWT) dataset used for model testing and reproducible examples. The complete CUWT image dataset is available through Zenodo: **[Zenodo DOI / reviewer link to be added]**.
+(1) CUWT dataset.zip - The China-UK Wheat Traits (CUWT) dataset used for model testing and reproducible examples. The complete CUWT image dataset is available through Zenodo:10.5281/zenodo.20056635
+        
+        .
 
 (2) Trained deep learning models - The trained WHT-ViT model and trait-teacher models used for wheat cultivar classification and trait-guided learning.
 
