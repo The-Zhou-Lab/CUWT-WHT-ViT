@@ -2,13 +2,16 @@
 
 Ziyang He<sup>1,+</sup>, Gang Sun<sup>1,+</sup>, Yumeng Wan<sup>1</sup>, Feng Tu<sup>1</sup>, Greg Deakin<sup>2</sup>, Zhenjie Wen<sup>1</sup>, Robert Jackson<sup>2</sup>, Ji Zhou<sup>1,3*</sup>, Lei Ju<sup>2*</sup>
 
-Ziyang He, heziyang@stu.njau.edu.cn, ORCID: 0009-0001-6862-8449  
-Gang Sun, gang.sun@njau.edu.cn, ORCID: 0000-0002-6548-5980  
-Greg Deakin, Greg.Deakin@niab.com，[ORCID to be added]  
-Zhenjie Wen, WenZhenjie@njau.edu.cn， ORCID: 0000-0002-8191-1070  
-Robert Jackson,  Robert.Jackson@niab.com，[ORCID to be added]  
-Ji Zhou, Ji.Zhou@njau.edu.cn or JZhou@CEMPS.ac.cn, ORCID: 0000-0002-5752-5524  
-Lei Ju, Lei.Ju@niab.com, ORCID: 0000-0002-0048-7440
+Ziyang He, heziyang@stu.njau.edu.cn, orcid: 0009-0001-6862-8449
+Gang Sun, gang.sun@njau.edu.cn, orcid: 0000-0002-6548-5980
+Yumeng Wan, Yumeng Wan@stu.njau.edu.cn, orcid: 0009-0004-3896-2341
+Feng Tu, fengtu@stu.njau.edu.cn, orcid: 0009-0008-7453-6699
+Greg Deakin,  Greg.Deakin@niab.com, orcid: 0000-0002-7817-345X
+Zhenjie Wen, WenZhenjie@njau.edu.cn, orcid: 0000-0002-8191-1070
+Robert Jackson,  Robert.Jackson@niab.com, orcid: 0000-0002-8364-1633
+Ji Zhou, Ji.Zhou@njau.edu.cn or JZhou@CEMPS.ac.cn, orcid: 0000-0002-5752-5524
+Lei Ju, Lei.Ju@niab.com, orcid: 0000-0002-0048-7440
+
 
 <sup>+</sup> These authors contributed equally to this work.  
 <sup>*</sup> Corresponding authors.
