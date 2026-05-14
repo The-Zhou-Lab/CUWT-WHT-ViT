@@ -75,7 +75,7 @@ Some dependencies of the Jupyter notebooks:
 
 Data availability
 
-The complete CUWT image dataset is deposited in Zenodo and will be available at **[Zenodo DOI / reviewer link to be added]**.
+The complete CUWT image dataset is deposited in Zenodo and will be available at 10.5281/zenodo.20056635.
 
 The GitHub release provides source code, trained model weights, example datasets, analysis results and supplementary tables supporting the results presented in the article. Other data and user guides are available from the corresponding authors upon reasonable request.
 
