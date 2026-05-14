@@ -2,14 +2,22 @@
 
 Ziyang He<sup>1,+</sup>, Gang Sun<sup>1,+</sup>, Yumeng Wan<sup>1</sup>, Feng Tu<sup>1</sup>, Greg Deakin<sup>2</sup>, Zhenjie Wen<sup>1</sup>, Robert Jackson<sup>2</sup>, Ji Zhou<sup>1,3*</sup>, Lei Ju<sup>2*</sup>
 
-Ziyang He, heziyang@stu.njau.edu.cn, orcid: 0009-0001-6862-8449
+Ziyang He, heziyang@stu.njau.edu.cn, orcid: 0009-0001-6862-8449 
+
 Gang Sun, gang.sun@njau.edu.cn, orcid: 0000-0002-6548-5980
+
 Yumeng Wan, Yumeng Wan@stu.njau.edu.cn, orcid: 0009-0004-3896-2341
+
 Feng Tu, fengtu@stu.njau.edu.cn, orcid: 0009-0008-7453-6699
+
 Greg Deakin,  Greg.Deakin@niab.com, orcid: 0000-0002-7817-345X
+
 Zhenjie Wen, WenZhenjie@njau.edu.cn, orcid: 0000-0002-8191-1070
+
 Robert Jackson,  Robert.Jackson@niab.com, orcid: 0000-0002-8364-1633
+
 Ji Zhou, Ji.Zhou@njau.edu.cn or JZhou@CEMPS.ac.cn, orcid: 0000-0002-5752-5524
+
 Lei Ju, Lei.Ju@niab.com, orcid: 0000-0002-0048-7440
 
 
@@ -44,11 +52,23 @@ The complete CUWT image dataset is deposited in Zenodo: 10.5281/zenodo.20056635
         
         
         
+        
+        
+        
+        
+        
+        
         .
 
 The main files are as follows:
 
 (1) CUWT dataset.zip - The China-UK Wheat Traits (CUWT) dataset used for model testing and reproducible examples. The complete CUWT image dataset is available through Zenodo:10.5281/zenodo.20056635
+        
+        
+        
+        
+        
+        
         
         
         
