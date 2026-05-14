@@ -58,7 +58,6 @@ The complete CUWT image dataset is deposited in Zenodo: 10.5281/zenodo.20056635
         
         
         
-        .
 
 The main files are as follows:
 
@@ -91,8 +90,6 @@ The main files are as follows:
         
         
         
-        
-        .
 
 (2) Trained deep learning models - The trained WHT-ViT model and trait-teacher models used for wheat cultivar classification and trait-guided learning.
 
