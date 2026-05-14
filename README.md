@@ -1,6 +1,6 @@
 # CUWT-WHT-ViT: Trait-guided wheat cultivar classification
 
-Ziyang He<sup>1,+</sup>, Gang Sun<sup>1,+</sup>, Greg Deakin<sup>2</sup>, Zhenjie Wen<sup>1</sup>, Robert Jackson<sup>2</sup>, Ji Zhou<sup>1,3*</sup>, Lei Ju<sup>2*</sup>
+Ziyang He<sup>1,+</sup>, Gang Sun<sup>1,+</sup>, Yumeng Wan<sup>1</sup>, Feng Tu<sup>1</sup>, Greg Deakin<sup>2</sup>, Zhenjie Wen<sup>1</sup>, Robert Jackson<sup>2</sup>, Ji Zhou<sup>1,3*</sup>, Lei Ju<sup>2*</sup>
 
 Ziyang He, heziyang@stu.njau.edu.cn, ORCID: 0009-0001-6862-8449  
 Gang Sun, gang.sun@njau.edu.cn, ORCID: 0000-0002-6548-5980  
@@ -17,11 +17,59 @@ This repository provides the source code, trained deep learning models, example 
 
 The project presents the China-UK Wheat Traits (CUWT) dataset and the Wheat Trait-guided Vision Transformer (WHT-ViT), a trait-guided deep learning framework for field-based wheat cultivar classification using dual-view smartphone images collected from China and the UK.
 
-The complete CUWT image dataset is deposited in Zenodo: 10.5281/zenodo.20056635.
+The complete CUWT image dataset is deposited in Zenodo: 10.5281/zenodo.20056635
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        .
 
 The main files are as follows:
 
-(1) CUWT dataset.zip - The China-UK Wheat Traits (CUWT) dataset used for model testing and reproducible examples. The complete CUWT image dataset is available through Zenodo:10.5281/zenodo.20056635.
+(1) CUWT dataset.zip - The China-UK Wheat Traits (CUWT) dataset used for model testing and reproducible examples. The complete CUWT image dataset is available through Zenodo:10.5281/zenodo.20056635
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        .
 
 (2) Trained deep learning models - The trained WHT-ViT model and trait-teacher models used for wheat cultivar classification and trait-guided learning.
 
