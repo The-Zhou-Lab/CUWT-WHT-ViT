@@ -141,12 +141,16 @@ Some dependencies of the Jupyter notebooks:
        Scikit-learn=[version to be added];
        Matplotlib=[version to be added];
 
-Data availability
+## Data and code availability
 
-The complete CUWT image dataset is deposited in Zenodo and will be available at 10.5281/zenodo.20056635.
+The complete CUWT image dataset is publicly available from Zenodo under the Creative Commons Attribution 4.0 International (CC BY 4.0) licence:
 
-The GitHub release provides source code, trained model weights, example datasets, analysis results and supplementary tables supporting the results presented in the article. Other data and user guides are available from the corresponding authors upon reasonable request.
+https://doi.org/10.5281/zenodo.20056636
 
-License
+Source code, configuration files, example data, processed analysis results and supplementary tables are available in this repository. Archived trained-model packages are available from the v1.0 release:
 
-Source codes, notebooks, example imagery, analysis results and trained DL models are shared under **the MIT license**. The complete CUWT dataset follows the license specified in the Zenodo record **[license to be confirmed]**. For any commercial use, please contact the corresponding authors listed above.
+https://github.com/The-Zhou-Lab/CUWT-WHT-ViT/releases/tag/v1.0
+
+## License
+
+The source code and other repository and release materials are distributed under the Apache License 2.0; see the repository LICENSE file. The CUWT image dataset deposited on Zenodo is licensed separately under CC BY 4.0.
