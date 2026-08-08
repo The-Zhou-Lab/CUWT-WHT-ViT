@@ -1,156 +1,69 @@
 # CUWT-WHT-ViT: Trait-guided wheat cultivar classification
 
-Ziyang He<sup>1,+</sup>, Gang Sun<sup>1,+</sup>, Yumeng Wan<sup>1</sup>, Feng Tu<sup>1</sup>, Greg Deakin<sup>2</sup>, Zhenjie Wen<sup>1</sup>, Robert Jackson<sup>2</sup>, Ji Zhou<sup>1,3*</sup>, Lei Ju<sup>2*</sup>
+## Authors
 
-Ziyang He, heziyang@stu.njau.edu.cn, orcid: 0009-0001-6862-8449 
+Ziyang He, Gang Sun, Yumeng Wan, Feng Tu, Greg Deakin, Zhenjie Wen, Robert Jackson, Ji Zhou and Lei Ju
 
-Gang Sun, gang.sun@njau.edu.cn, orcid: 0000-0002-6548-5980
+Ziyang He: heziyang@stu.njau.edu.cn | ORCID: 0009-0001-6862-8449  
+Gang Sun: gang.sun@njau.edu.cn | ORCID: 0000-0002-6548-5980  
+Yumeng Wan: Yumeng.Wan@stu.njau.edu.cn | ORCID: 0009-0004-3896-2341  
+Feng Tu: fengtu@stu.njau.edu.cn | ORCID: 0009-0008-7453-6699  
+Greg Deakin: Greg.Deakin@niab.com | ORCID: 0000-0002-7817-345X  
+Zhenjie Wen: WenZhenjie@njau.edu.cn | ORCID: 0000-0002-8191-1070  
+Robert Jackson: Robert.Jackson@niab.com | ORCID: 0000-0002-8364-1633  
 
-Yumeng Wan, Yumeng Wan@stu.njau.edu.cn, orcid: 0009-0004-3896-2341
+**Corresponding authors:**  
+Ji Zhou: Ji.Zhou@njau.edu.cn; JZhou@CEMPS.ac.cn | ORCID: 0000-0002-5752-5524  
+Lei Ju: Lei.Ju@niab.com | ORCID: 0000-0002-0048-7440  
 
-Feng Tu, fengtu@stu.njau.edu.cn, orcid: 0009-0008-7453-6699
+Ziyang He and Gang Sun contributed equally to this work.
 
-Greg Deakin,  Greg.Deakin@niab.com, orcid: 0000-0002-7817-345X
+## Overview
 
-Zhenjie Wen, WenZhenjie@njau.edu.cn, orcid: 0000-0002-8191-1070
+This repository accompanies the study *From Traits to IDs: Multi-trait Learning with Knowledge Distillation for Varietal Classification*.
 
-Robert Jackson,  Robert.Jackson@niab.com, orcid: 0000-0002-8364-1633
+It provides released materials for the China-UK Wheat Traits (CUWT) dataset and the Wheat Trait-guided Vision Transformer (WHT-ViT). WHT-ViT is a trait-guided deep learning framework for field-based wheat cultivar classification from cultivar-matched canopy and lateral smartphone images collected from China and the United Kingdom.
 
-Ji Zhou, Ji.Zhou@njau.edu.cn or JZhou@CEMPS.ac.cn, orcid: 0000-0002-5752-5524
+The framework integrates cultivar classification with supervision from six spike traits: awn presence, projected spike length-to-width ratio, compactness, density, texture and yellowness.
 
-Lei Ju, Lei.Ju@niab.com, orcid: 0000-0002-0048-7440
+## Data access
 
-
-<sup>+</sup> These authors contributed equally to this work.  
-<sup>*</sup> Corresponding authors.
-
-This repository provides the source code, trained deep learning models, example datasets, analysis results and supplementary tables for the article titled **“From Traits to IDs: Multi-trait Learning with Knowledge Distillation for Varietal Classification”**.
-
-The project presents the China-UK Wheat Traits (CUWT) dataset and the Wheat Trait-guided Vision Transformer (WHT-ViT), a trait-guided deep learning framework for field-based wheat cultivar classification using dual-view smartphone images collected from China and the UK.
-
-The complete CUWT image dataset is deposited in Zenodo: 10.5281/zenodo.20056635
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-
-The main files are as follows:
-
-(1) CUWT dataset.zip - The China-UK Wheat Traits (CUWT) dataset used for model testing and reproducible examples. The complete CUWT image dataset is available through Zenodo:10.5281/zenodo.20056635
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-
-(2) Trained deep learning models - The trained WHT-ViT model and trait-teacher models used for wheat cultivar classification and trait-guided learning.
-
-(3) Analysis results - Model evaluation results, baseline comparisons, trait prediction results and source data supporting the main figures.
-
-(4) Supplementary tables - Supporting materials for CUWT construction, trait annotation, model comparison and wheat cultivar classification.
-
-(5) WHT-ViT - Scripts required for the WHT-ViT model to run.
-
-(6) Step1_pre_processing.ipynb - Python-based source code that contains image pre-processing and preparation of dual-view wheat images.
-
-(7) Step2_trait_analysis.ipynb - Python-based source code that contains spike detection, segmentation and extraction of breeder-relevant spike traits.
-
-(8) Step3_WHT-ViT_training_and_evaluation.ipynb - Python-based source code that contains model training, trait-guided knowledge distillation and wheat cultivar classification.
-
-(9) Step4_result_analysis.ipynb - Python-based source code that contains result analysis, statistical comparison and figure source data generation.
-
-To install Python, Anaconda and Libraries
-
-If you wish to run from the source code provided in this project, you will need to set up Python on your system.
-
-• Read the beginner’s guide to Python if you are new to the language: https://wiki.python.org/moin/BeginnersGuide
-
-• For Windows users, Python 3 release can be downloaded via: https://www.python.org/downloads/windows/
-
-• To install Anaconda Python distribution:
-
-1) Read the install instruction using the URL: https://docs.continuum.io/anaconda/install
-
-2) For Windows users, a detailed step-by-step installation guide can be found via: https://docs.continuum.io/anaconda/install/windows
-
-3) An Anaconda Graphical installer can be found via: https://www.continuum.io/downloads
-
-4) We recommend users install the latest Anaconda Python distribution
-
-Some dependencies of the Jupyter notebooks:
-
-       Python=[version to be added];
-       PyTorch=[version to be added];
-       Torchvision=[version to be added];
-       timm=[version to be added];
-       ultralytics=[version to be added];
-       SAM2=[version to be added];
-       Scikit-image=[version to be added];
-       OpenCV=[version to be added];
-       Pandas=[version to be added];
-       Numpy=[version to be added];
-       Scipy=[version to be added];
-       Scikit-learn=[version to be added];
-       Matplotlib=[version to be added];
-
-## Data and code availability
-
-The complete CUWT image dataset is publicly available from Zenodo under the Creative Commons Attribution 4.0 International (CC BY 4.0) licence:
+The complete CUWT image dataset is publicly available from Zenodo:
 
 https://doi.org/10.5281/zenodo.20056636
 
-Source code, configuration files, example data, processed analysis results and supplementary tables are available in this repository. Archived trained-model packages are available from the v1.0 release:
+The CUWT dataset is distributed under the Creative Commons Attribution 4.0 International license (CC BY 4.0).
 
-https://github.com/The-Zhou-Lab/CUWT-WHT-ViT/releases/tag/v1.0
+## Repository contents
+
+- `trait_extraction.py`: trait-extraction workflow for wheat spike images.
+- `README.md`: project documentation and resource overview.
+- `LICENSE`: license for repository source code and release materials.
+
+## Archived model packages
+
+Archived trained-model packages are available from the [v1.0 release](https://github.com/The-Zhou-Lab/CUWT-WHT-ViT/releases/tag/v1.0).
+
+The release currently includes:
+
+- `Distillation.zip`
+- `pretrain_weights.zip`
+- `teacher_weights.zip`
+
+## Data and code availability
+
+The complete CUWT image dataset is available through Zenodo at https://doi.org/10.5281/zenodo.20056636.
+
+Released source materials are provided in this repository. Archived trained-model packages are available from the v1.0 release.
 
 ## License
 
-The source code and other repository and release materials are distributed under the Apache License 2.0; see the repository LICENSE file. The CUWT image dataset deposited on Zenodo is licensed separately under CC BY 4.0.
+The source code and other repository and release materials are distributed under the Apache License 2.0; see the [LICENSE](LICENSE) file.
+
+The CUWT image dataset deposited on Zenodo is licensed separately under CC BY 4.0.
+
+## Citation
+
+If you use the CUWT dataset, code or released model packages, please cite the associated manuscript and the Zenodo dataset record:
+
+China-UK Wheat Traits (CUWT): a dual-view field image dataset for trait-guided wheat cultivar classification. Zenodo. https://doi.org/10.5281/zenodo.20056636
